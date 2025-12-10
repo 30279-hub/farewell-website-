@@ -1,7 +1,7 @@
 // === CONFIG — EDIT THESE FIELDS ===
-const EVENT_DATE = new Date('December 10, 2025 11:30:00 GMT+0530'); // IST
-const EVENT_TIME_TEXT = '11:30 AM – 3:30 PM';
-const VENUE_NAME = 'School Assembly Area, <Your Campus>';
+const EVENT_DATE = new Date('December 09, 2025 08:00:00 GMT+0530'); // IST
+const EVENT_TIME_TEXT = '8:00 AM – 1:00 PM';
+const VENUE_NAME = 'Auditorium, <Your Campus>';
 
 // GALLERY OPTION A: Native grid with hover-zoom (no captions)
 // Paste public image FILE IDs here to enable (each file must be shared as Anyone with link -> Viewer).
@@ -81,23 +81,23 @@ setInterval(tick, 1000);
 
 // === Crew Manifest — Farewell Titles (hover tooltip)
 const TITLES = [
-  {name:"Adhiraj Singh", title:"Happy Heart 💖", desc:"Always cheerful, spreads smiles wherever he goes, and lights up every room with positivity."},
-  {name:"Aditya", title:"Joyful Groom Maker 🌟", desc:"Known for his energy and fun-loving spirit — he can turn any dull day into a celebration."},
-  {name:"Aditya Tripathi", title:"Handsome Humble 😎", desc:"A confident, cool-headed guy who’s always ready to lend a helping hand with a smile."},
-  {name:"Adrija Majumder", title:"Innocent Smile Icon 😊", desc:"Her pure heart and innocent smile make her the sunshine of every group."},
-  {name:"Alex Mangastabam", title:"Pure Soul, Heart of Gold 💫", desc:"A kind-hearted and genuine person who treats everyone with care and respect."},
-  {name:"Arnab Sinha", title:"The Wise Card Player 🧠", desc:"Smart, strategic, and calm — a thinker who always knows his next move."},
-  {name:"Ayushmaan Datta", title:"Fearless Performer 🎤", desc:"Always confident on stage and off — he never hesitates to take challenges head-on."},
-  {name:"CH Sankar Mahadev", title:"Brightest Achiever 🌠", desc:"Intelligent and hardworking, always setting high standards for himself and others."},
-  {name:"Deepika", title:"Multi-Talent Dynamo 💃", desc:"From academics to arts, she shines everywhere — truly a versatile star."},
-  {name:"Dolly Kumari", title:"The Kind Soul 🤍", desc:"Always ready to help, her compassion and warmth touch everyone around her."},
-  {name:"Jitesh Pal", title:"Mr. Perfect Gentleman 🎩", desc:"Polite, dependable, and confident — the true definition of a gentleman."},
-  {name:"Kaushik Kumar Mallick", title:"Nice & Commanding 💪", desc:"Strong, sincere, and respected — his leadership always inspires his peers."},
-  {name:"Laya Botta", title:"Cheerful Friend Maker 🌈", desc:"Always full of laughter and kindness — she can turn strangers into friends in seconds."},
-  {name:"P. L. N. Bharat Chandra", title:"Silent Supporter 🤫", desc:"Quiet yet powerful — always there when you need him the most."},
-  {name:"Pamula Lakshmi Prasanna", title:"Graceful Performer 🌹", desc:"Elegant in her moves and humble in her words — a true performer with class."},
-  {name:"Parvatam Moukthika", title:"Fashionable Rhythm Princess 👑", desc:"Stylish, graceful, and full of rhythm — she blends talent with elegance."},
-  {name:"Pragati Singh", title:"Model Dancer & Fashion Diva 💃", desc:"Full of confidence and charm, she owns every stage she steps on."},
+  {name:"Adhiraj Singh", title:"🔥 The Clever Rebel", desc:"🚀Intelligent and fearless, Adhiraj breaks norms and builds new paths with style."},
+  {name:"Aditya", title:"🤪 Mr. Bean", desc:"😆 Always full of life, Aditya brings smiles wherever he goes — a true mood maker!"},
+  {name:"Aditya Tripathi", title:"🎓 The Scholarly Rebel", desc:"🧠 Bold in thought and rich in ideas, Aditya stands out as a thinker who dares to dream differently"},
+  {name:"Adrija Majumder", title:"💃 The Dancing Queen", desc:"🎶 Her rhythm speaks louder than words — Adrija is the heartbeat of every stage she steps on."},
+  {name:"Alex Mangastabam", title:"🇰🇷 Korean Athlete", desc:"💪 With unstoppable energy and dedication, Alex inspires everyone to chase their passions fearlessly."},
+  {name:"Arnab Sinha", title:"☯️ Tranquil Mind", desc:"🌿 Calm, wise, and grounded — Arnab’s peaceful nature inspires balance in all."},
+  {name:"Ayushmaan Datta", title:"💻 Code Commander", desc:"⚙️ Master of logic and creativity, Ayushman codes his way to innovation and success."},
+  {name:"CH Sankar Mahadev", title:"🛠️ Jack of All Trades", desc:"🌈 Versatile and confident, Sankar proves that talent truly knows no limits."},
+  {name:"Deepika", title:"🦋 Social Butterfly", desc:"💖 With charm and kindness, Deepika connects hearts and spreads positivity everywhere."},
+  {name:"Dolly Kumari", title:"🌸 Graceful Achiever", desc:"🌼 Elegant in attitude, strong in effort — Dolly achieves success with pure grace."},
+  {name:"Jitesh Pal", title:"🧠 Tech Wizard", desc:"⚙️ Always innovating, Jitesh turns technology into magic with his brilliance."},
+  {name:"Kaushik Kumar Mallick", title:"😎 Comrade Cool", desc:"🧊 Cool, confident, and caring — Kaushik brings chill vibes and strong bonds everywhere."},
+  {name:"Laya Botta", title:"🔥 Focused Flame", desc:"🎯 Determined and disciplined, Laya burns bright with the fire of ambition.."},
+  {name:"P. L. N. Bharat Chandra", title:"🎤 Iron Orator", desc:"🔥 His voice carries power, his words inspire — Bharat is born to lead and influence."},
+  {name:"Pamula Lakshmi Prasanna", title:"🎭 Versatile Virtuoso", desc:"🌟 A blend of talent and passion, Lakshmi shines bright in every role she takes."},
+  {name:"Parvatam Moukthika", title:"🗣️ Eloquence Maestro", desc:"✨ Her words flow like poetry — Moutkthika’s eloquence leaves a mark on every heart."},
+  {name:"Pragati Singh", title:"💃 The Glamorous Diva", desc:"💫 Stylish, confident, and strong — Pragati shines wherever she goes.."},
   {name:"Prayagraj Dakua", title:"Gifted Athlete ⚽", desc:"Energetic and determined — always giving his 100% on and off the field."},
   {name:"Priyani Tyagi", title:"Sincere & Smart Girl 📚", desc:"Focused, intelligent, and disciplined — she always leads by example."},
   {name:"Priyanshi Pandey", title:"Bubbly Performer 🌸", desc:"Her laughter is contagious and her spirit unmatchable — she brings joy everywhere."},
